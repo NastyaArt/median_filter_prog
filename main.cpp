@@ -78,8 +78,7 @@ void start(const char * file, const char *outputFile)
 
 int main()
 {
-    start("images/image2.bmp", "result_images/out_image2.bmp");
-    start("images/image3.bmp", "result_images/out_image3.bmp");
-    start("images/image4.bmp", "result_images/out_image4.bmp");
+    start("images/1.jpg", "result_images/out_image1.jpg");
+    start("images/2.jpg", "result_images/out_image2.jpg");
     return 0;
 }
